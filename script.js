@@ -67,10 +67,11 @@ if (contactForm) {
       `Hi Abhinav,\n\n${message}\n\nFrom: ${name}\nReply email: ${email}`
     );
 
-    if (portfolioEmail === "kumarabhinav27536@gmail.com") {
-      formFeedback.textContent = "Before using the form, replace YOUR_EMAIL@example.com in index.html and script.js with your email address.";
-      return;
-    }
+    
+  if (portfolioEmail === "YOUR_EMAIL@example.com") {
+  formFeedback.textContent = "Please configure your email address first.";
+  return;
+}
 
     formFeedback.textContent = "Opening your email app with the message details…";
     window.location.href = `mailto:${portfolioEmail}?subject=${subject}&body=${body}`;
