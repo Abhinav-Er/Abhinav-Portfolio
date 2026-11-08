@@ -67,7 +67,7 @@ if (contactForm) {
       `Hi Abhinav,\n\n${message}\n\nFrom: ${name}\nReply email: ${email}`
     );
 
-    if (portfolioEmail === "YOUR_EMAIL@example.com") {
+    if (portfolioEmail === "kumarabhinav27536@gmail.com") {
       formFeedback.textContent = "Before using the form, replace YOUR_EMAIL@example.com in index.html and script.js with your email address.";
       return;
     }
