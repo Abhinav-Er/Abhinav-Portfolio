@@ -49,7 +49,7 @@ if ("IntersectionObserver" in window) {
 // to send data to a server. Replace this address with your own email.
 const contactForm = document.getElementById("contactForm");
 const formFeedback = document.getElementById("formFeedback");
-const portfolioEmail = "YOUR_EMAIL@example.com";
+const portfolioEmail = "kumarabhinav27536@gmail.com";
 
 if (contactForm) {
   contactForm.addEventListener("submit", (event) => {
