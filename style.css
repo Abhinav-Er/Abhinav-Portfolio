@@ -1,16 +1,16 @@
 /* Abhinav Kumar Portfolio — Minimal Professional
    Palette: white, navy, and soft blue-gray. */
    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
-:root {
+ :root {
   --navy: #142b4a;
   --navy-deep: #0c1d33;
   --blue: #315f98;
-  --blue-light: #eaf1f9;
+  --blue-light: #eee5d8;
   --ink: #19283b;
-  --muted: #66758a;
-  --line: #dfe6ee;
-  --paper: #ffffff;
-  --soft: #f6f8fb;
+  --muted: #746b60;
+  --line: #ded2c1;
+  --paper: #f4ebdd;
+  --soft: #eae0d0;
   --radius: 18px;
   --shadow: 0 18px 55px rgba(20, 43, 74, .09);
 }
@@ -26,7 +26,9 @@ img { max-width: 100%; display: block; }
 .section-soft { background: var(--soft); }
 .skip-link { position: absolute; top: -60px; left: 16px; z-index: 1000; padding: 10px 14px; background: var(--navy); color: white; border-radius: 8px; }
 .skip-link:focus { top: 12px; }
-.site-header { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,.94); backdrop-filter: blur(14px); border-bottom: 1px solid rgba(223,230,238,.8); }
+.site-header { position: sticky; top: 0; z-index: 100;
+     background: rgba(244,235,221,.94); backdrop-filter: blur(14px); 
+  border-bottom: 1px solid rgba(223,230,238,.8); }
 .nav { min-height: 78px; display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .brand { font: 800 1.65rem/1 "Manrope", sans-serif; letter-spacing: -1.5px; color: var(--navy); }
 .brand span { color: var(--blue); }
@@ -193,7 +195,8 @@ h1 > span:first-child { color: var(--blue); }
   .section { padding-block: 75px; }
   .nav { min-height: 70px; }
   .menu-toggle { display: block; }
-  .nav-links { display: none; position: absolute; top: 69px; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0; padding: 10px 22px 20px; background: white; border-bottom: 1px solid var(--line); box-shadow: 0 18px 25px rgba(20,43,74,.08); }
+  .nav-links { display: none; position: absolute; top: 69px; left: 0; right: 0;
+     flex-direction: column; align-items: stretch; gap: 0; padding: 10px 22px 20px; background: #F4EBDD; border-bottom: 1px solid var(--line); box-shadow: 0 18px 25px rgba(20,43,74,.08); }
   .nav-links.open { display: flex; }
   .nav-link { padding: 12px 0; border-bottom: 1px solid #eef2f6; }
   .nav-cta { margin-top: 13px; text-align: center; }
